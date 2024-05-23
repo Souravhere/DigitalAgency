@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/another.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <title>Digital Agency</title>
+</head>
+<body>
+    <div class="main">
+        <nav class=" text-black bg-[#f3eee8] flex items-center justify-between h-[10vh] p-4">
+                <a id="desknav" href=""><h1 class="text-2xl font-semibold">Digital Agency</h1></a>
+                <!-- desktop menu start -->
+                <ul id="desknav" class="sm:flex gap-5 font-semibold hidden">
+                    <li class="after"><a href="">Home</a></li>
+                    <li class="after"><a href="">Contact Us</a></li>
+                    <li class="after"><a href="">About Us</a></li>
+                    <li class="after"><a href="">Projects</a></li>
+                    <li class="after"><a href="">About Us</a></li>
+                </ul>
+                <!-- desktop menu end -->
+                <!-- moblile menu start -->
+                <button id="mobile-menu-btn" class="sm:hidden"><i class="ri-menu-4-line text-4xl"></i></button>
+                <div id="mobile-menu-display" class="hidden sm:hidden bottom-0 left-0 z-50 w-full h-screen bg-slate-400">
+                    <button id="mobile-menu-btn ml-[80%] sm:hidden" class="p-5"><i class="ri-menu-4-line text-4xl"></i></button>
+                    <ul class="font-bold sm:hidden text-right p-5 text-5xl mt-20">
+                        <li class="mt-5"><a href="">Home <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                        <li class="mt-5"><a href="">Contact Us <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                        <li class="mt-5"><a href="">About Us <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                        <li class="mt-5"><a href="">Projects <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                        <li class="mt-5"><a href="">About Us <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                    </ul>
+                </div>
+                <!-- moblile menu end -->
+                <!-- <a href=""><button>Contact Us</button></a> -->
+
+        </nav>
+        <header class="w-full h-[90vh] bg-[#f3eee8] flex items-center justify-center relative overflow-x-hidden overflow-y-hidden">
+            <!-- some elements with absolute -->
+            <i id="headeranileft" class="ri-shining-2-fill absolute sm:top-9 sm:left-20 top-36 text-7xl rotate-45 text-orange-500 "></i> 
+            <div id="headeraniright" class="bg-black sm:block hidden rounded-3xl text-white font-semibold absolute text-2xl px-3 py-1 sm:top-9 sm:right-20 r -rotate-12">100%</div>
+            <div id="headeranileft" class="bg-[#fc7174] rounded-3xl text-black font-semibold absolute text-2xl px-3 py-1 sm:bottom-9 sm:left-20 bottom-10 left-2 -rotate-12 uppercase">webdesign</div>
+            <div id="headeraniright" class="bg-[#389b48] sm:block hidden rounded-3xl text-black font-semibold absolute text-2xl px-3 py-1 sm:bottom-9 sm:right-20  -rotate-45 uppercase"> seo</div>
+            <div id="headeranileft" class="bg-[#389b48] rounded-full text-center text-black font-semibold absolute text-1xl p-4 sm:bottom-10 sm:left-96 bottom-28 left-40 uppercase"><i class="ri-thumb-up-fill"></i><br> social <br> media</div>
+            <div id="headeraniright" class="bg-[#fcc31e] text-center text-black font-semibold absolute text-1xl p-4 sm:bottom-10 sm:right-96 bottom-6 right-3 uppercase">uix <br> design <br><i class="ri-cursor-line"></i></div>
+
+            <div id="mid-header" class="text-center">
+                <p class="uppercase text-sm mt-3">welcome to digital Agency</p>
+                <h1 class="sm:text-5xl text-4xl font-bold mt-3">We are Awarded <br> Digital Agency</h1>
+                <h4 class="text-sm font-semibold mt-3">We are freelance WebDevelopment Agency</h4>
+                <a href=""><button class="bg-[#030001] px-4 py-2 rounded-xl mt-4 text-white group">Learn More <i class="ri-arrow-right-line group-hover:animate-pulse"></i></button></a>
+            </div>
+            <div id="scroller" class="py-3 px-3 border-2 rounded-3xl absolute bottom-7 cursor-pointer group"><i class="ri-arrow-down-line text-3xl font-semibold inline-block animate-bounce  group-hover:animate-none"></i></div>
+        </header>
+        <article id="articalsection" class="w-full sm:h-screen h-fit p-5">
+            <div id="toparticalsection" class="text-center">
+                <p class="text-white bg-[#fb803c] py-1 px-2 rounded-lg text-center inline-block font-semibold">Intro</p>
+                <h2 class="text-black font-bold sm:text-3xl text-4xl py-1 px-2 rounded-lg text-center block">Welcome to Digital Agency</h2>
+                <p class="font-semibold">The awesome people who makes <br> all this possible</p>
+            </div>
+            <div id="cardsarticalsectin" class="w-full sm:flex items-center justify-around block">
+                <a href="">
+                    <div class="h-auto py-5 sm:w-[250px] w-[330px] bg-[#ebe8de] mt-5 mx-auto text-center rounded-xl shadow-lg hover:shadow-2xl hover:shadow-green-300 duration-700">
+                        <p class="text-center text-xs font-bold uppercase mt-4">start here</p>
+                        <h3 class="text-center font-semibold text-2xl tracking-tighter">Who we are &<br> What we do</h3>
+                        <img class="h-44 mx-auto" src="https://bettermetrics.io/wp-content/uploads/2022/06/business-_-graph-chart-analytics-statistics-presentation-project-woman-people@2x-600x600.png" alt="">
+                        <a href="#"><button class="px-3 py-2 bg-green-600 rounded-md mt-3 text-white items-center uppercase">start here <i class="ri-arrow-right-line"></i></button></a>
+                    </div> 
+                </a>
+                <a href="">
+                    <div class="h-auto py-5 sm:w-[250px] w-[330px] bg-[#ebe8de] mt-5 mx-auto text-center rounded-xl shadow-lg hover:shadow-2xl hover:shadow-orange-400 duration-700">
+                        <p class="text-center text-xs font-bold uppercase mt-4">custom design</p>
+                        <h3 class="text-center font-semibold text-2xl tracking-tighter">We'll design your<br>Project</h3>
+                        <img class="h-44 mx-auto" src="https://bettermetrics.io/wp-content/uploads/2022/06/loading-_-load-download-upload-progress-man-people@2x-600x600.png" alt="">
+                        <a href="#"><button class="px-3 py-2 bg-[#fb803a] rounded-md mt-3 text-white items-center uppercase">start here <i class="ri-arrow-right-line"></i></button></a>
+                    </div> 
+                </a>
+                <a href="">
+                    <div class="h-auto py-5 sm:w-[250px] w-[330px] bg-[#ebe8de] mt-5 mx-auto text-center rounded-xl shadow-lg hover:shadow-2xl hover:shadow-sky-400 duration-700">
+                        <p class="text-center text-xs font-bold uppercase mt-4">contact us</p>
+                        <h3 class="text-center font-semibold text-2xl tracking-tighter">Drop us your <br> message!</h3>
+                        <img class="h-44 mx-auto" src="https://bettermetrics.io/wp-content/uploads/2022/06/business-_-chart-graph-analytics-statistics-presentation-project-woman-people@2x-600x600.png" alt="">
+                        <a href="#"><button class="px-3 py-2 bg-[#448dc8] rounded-md mt-3 text-white items-center uppercase">start here <i class="ri-arrow-right-line"></i></button></a>
+                    </div> 
+                </a>
+            </div>
+        </article>
+        <main class="w-[97%] h-fit bg-[#f2eee8] rounded-lg mx-auto overflow-x-hidden sm:py-0 relative">
+            <div class="sm:w-[60%] w-full px-5 pl-10 pt-16">
+                <h1 class="sm:text-5xl font-bold text-3xl tracking-wider"><span class="bg-[#6650d9] inline-block text-xl font-bold px-2 py-1 uppercase text-white rounded-3xl -mt-12">About us</span> We are creative and talented team of <span></span> creators based on India</h1>
+            </div>
+                    <!-- this img is absolute  -->
+                    <img class="absolute sm:left-10 left-4 bottom-0 sm:h-[160px] h-[120px] z-10" src="https://assets-global.website-files.com/6413eb478a614320c1f37d05/643f148b47664b2a40e1ebb9_Banner%20Image%20-%20Homepage-p-800.png" alt="">
+                    <!-- end -->
+            <div id="text-container" class="flex items-center justify-between mt-7">
+                <img class="sm:h-[300px] h-[250px] rounded-[30px] p-5" src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <img class="sm:h-[300px] h-[250px] rounded-[30px] p-5" src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <img class="sm:h-[300px] h-[250px] rounded-[30px] p-5" src="https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <img class="sm:h-[300px] h-[250px] rounded-[30px] p-5" src="https://images.pexels.com/photos/414974/pexels-photo-414974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <img class="sm:h-[300px] h-[250px] rounded-[30px] p-5" src="https://images.pexels.com/photos/267415/pexels-photo-267415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <img class="sm:h-[300px] h-[250px] rounded-[30px] p-5" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <img class="sm:h-[300px] h-[250px] rounded-[30px] p-5" src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <img class="sm:h-[300px] h-[250px] rounded-[30px] p-5" src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                <img class="sm:h-[300px] h-[250px] rounded-[30px] p-5" src="https://images.pexels.com/photos/905163/pexels-photo-905163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+            </div>
+        </main>
+        <article class="w-full h-fit sm:flex justify-evenly mt-5">
+            <div class="sm:w-[50%] w-full">
+                <div class="sm:h-[200px] ml-[20%] sm:sticky sm:top-[40%]">
+                <h1 class="sm:text-4xl text-3xl font-semibold text-[#b7b0a8]">Who we are</h1>
+                <h1 class="sm:text-4xl text-3xl font-semibold text-[#b7b0a8]">What we do</h1>
+                <h1 class="sm:text-4xl text-3xl font-semibold text-[#b7b0a8]">Our Value</h1>
+                <h1 class="sm:text-4xl text-3xl font-semibold text-[#b7b0a8]">Why us</h1>
+                </div>
+            </div>
+            <div class="sm:w-[50%] w-full">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eveniet fugit, ipsum excepturi reprehenderit totam. Laborum, eius, dolorem, harum nihil similique consectetur minus molestias dicta labore perferendis quibusdam et laudantium cupiditate excepturi voluptas veritatis vero reprehenderit impedit culpa laboriosam delectus obcaecati minima? Corrupti non aperiam placeat, culpa architecto ratione repudiandae velit magnam provident veritatis ab libero hic id voluptatibus quaerat fugit ullam, iure voluptas exercitationem omnis commodi aliquam excepturi! Quidem eius voluptas, ratione iste, dolorum nam assumenda, officia asperiores veniam facilis suscipit ab aperiam fugiat minima? Delectus iste itaque neque quis natus, quaerat sit illum alias, doloremque numquam facilis placeat!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, quo laudantium. Aliquid delectus quibusdam voluptas optio amet architecto temporibus veritatis eaque cumque perspiciatis. Voluptatum quam excepturi sequi, reprehenderit necessitatibus voluptas asperiores fugiat. Similique quam, quis aut vel placeat consectetur libero perferendis doloribus inventore eos mollitia delectus? Nostrum, aperiam corporis voluptatem consectetur delectus nisi, dolorum consequuntur beatae animi, incidunt ut ratione fugit dolores? Itaque praesentium voluptas perferendis veniam pariatur repudiandae commodi impedit, expedita animi cupiditate qui quo neque ut. Vel reiciendis enim perferendis adipisci quam suscipit provident, atque officia autem, sit expedita voluptatibus officiis laudantium error incidunt natus laboriosam quae? Sunt libero, natus laudantium possimus rem pariatur ab corporis omnis ad doloribus voluptas iusto explicabo eius minus soluta. Corporis numquam, perspiciatis distinctio maxime tenetur illum magnam! Odio nihil consequatur in, vitae eos enim accusamus! Id dolorem molestias, tenetur optio consequatur cum exercitationem? Porro molestias voluptatem vitae libero ducimus aliquam in quaerat!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eveniet fugit, ipsum excepturi reprehenderit totam. Laborum, eius, dolorem, harum nihil similique consectetur minus molestias dicta labore perferendis quibusdam et laudantium cupiditate excepturi voluptas veritatis vero reprehenderit impedit culpa laboriosam delectus obcaecati minima? Corrupti non aperiam placeat, culpa architecto ratione repudiandae velit magnam provident veritatis ab libero hic id voluptatibus quaerat fugit ullam, iure voluptas exercitationem omnis commodi aliquam excepturi! Quidem eius voluptas, ratione iste, dolorum nam assumenda, officia asperiores veniam facilis suscipit ab aperiam fugiat minima? Delectus iste itaque neque quis natus, quaerat sit illum alias, doloremque numquam facilis placeat!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, quo laudantium. Aliquid delectus quibusdam voluptas optio amet architecto temporibus veritatis eaque cumque perspiciatis. Voluptatum quam excepturi sequi, reprehenderit necessitatibus voluptas asperiores fugiat. Similique quam, quis aut vel placeat consectetur libero perferendis doloribus inventore eos mollitia delectus? Nostrum, aperiam corporis voluptatem consectetur delectus nisi, dolorum consequuntur beatae animi, incidunt ut ratione fugit dolores? Itaque praesentium voluptas perferendis veniam pariatur repudiandae commodi impedit, expedita animi cupiditate qui quo neque ut. Vel reiciendis enim perferendis adipisci quam suscipit provident, atque officia autem, sit expedita voluptatibus officiis laudantium error incidunt natus laboriosam quae? Sunt libero, natus laudantium possimus rem pariatur ab corporis omnis ad doloribus voluptas iusto explicabo eius minus soluta. Corporis numquam, perspiciatis distinctio maxime tenetur illum magnam! Odio nihil consequatur in, vitae eos enim accusamus! Id dolorem molestias, tenetur optio consequatur cum exercitationem? Porro molestias voluptatem vitae libero ducimus aliquam in quaerat!</p>
+            </div>
+        </article>
+        <!-- our quality section start -->
+        <article class="w-full sm:h-[60%] h-fit mt-6 sm:flex items-center block justify-between p-5  bg-[#ede9e4]">
+            <div class="sm:w-[50%] w-full bg-[#ede9e4] p-5">
+                <h1 class="text-2xl font-bold text-center">We believe in good design</h1>
+                <div class="flex items-center justify-evenly mt-5">
+                    <div class="sm:w-[40%] w-[50%]">
+                        <div>
+                            <h2 class="text-xl font-bold">Excellence</h2>
+                            <p>We build long term and pro relationship with our clients</p>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold mt-4">Help Desk</h2>
+                            <p>We build long term and pro relationship with our clients</p>
+                        </div>
+                    </div>
+                    <div class="sm:w-[40%] w-[50%]">
+                        <div>
+                            <h2 class="text-xl font-bold">Superior Support</h2>
+                            <p>We build long term and pro relationship with our clients</p>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold mt-4">Fast Downloads</h2>
+                            <p>We build long term and pro relationship with our clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sm:w-[50%] w-full bg-[#f2ede9] rounded-lg">
+                <img class="sm:w-[60%] w-[100%]" src="https://uploads-ssl.webflow.com/62f14f4fca91e96ea9459cd4/631232e76ef5e9769544a5ec_process__image-wrapper--image-2.svg" alt="">
+            </div>
+        </article>
+        <!-- our quality section end -->
+        <!-- text auto slider start -->
+        <div class="overflow-x-hidden relative">
+            <div id="text-container" class="w-full h-fit py-6 overflow-x-visible">
+                <div id="text-scroll" class="w-full text-nowrap overflow-x-visible flex items-center">
+                     <h1 class="storke-text font-bold sm:text-8xl inline-block ml-0">web development</h1>
+                     <img class="h-32 mx-auto inline-block pl-4 ml-0" src="https://bettermetrics.io/wp-content/uploads/2022/06/business-_-chart-graph-analytics-statistics-presentation-project-woman-people@2x-600x600.png" alt="">
+                     <h1 class="storke-text font-bold text-8xl inline-block pl-4">uix design</h1>
+                     <img class="h-44 mx-auto inline-block pl-4" src="https://bettermetrics.io/wp-content/uploads/2022/06/loading-_-load-download-upload-progress-man-people@2x-600x600.png" alt="">
+                     <h1 class="storke-text font-bold text-8xl inline-block pl-4">marketing</h1>
+                     <img class="h-44 mx-auto inline-block pl-4" src="https://bettermetrics.io/wp-content/uploads/2022/06/business-_-graph-chart-analytics-statistics-presentation-project-woman-people@2x-600x600.png" alt="">
+                     <h1 class="storke-text font-bold text-8xl inline-block pl-4">seo</h1>
+                     <img class="h-32 mx-auto inline-block pl-4 ml-0" src="https://bettermetrics.io/wp-content/uploads/2022/06/business-_-chart-graph-analytics-statistics-presentation-project-woman-people@2x-600x600.png" alt="">
+                     <h1 class="storke-text font-bold text-8xl inline-block pl-4">uix design</h1>
+                     <img class="h-44 mx-auto inline-block pl-4" src="https://bettermetrics.io/wp-content/uploads/2022/06/loading-_-load-download-upload-progress-man-people@2x-600x600.png" alt="">
+                     <h1 class="storke-text font-bold text-8xl inline-block pl-4">marketing</h1>
+                     <img class="h-44 mx-auto inline-block pl-4" src="https://bettermetrics.io/wp-content/uploads/2022/06/business-_-graph-chart-analytics-statistics-presentation-project-woman-people@2x-600x600.png" alt="">
+                     <h1 class="storke-text font-bold text-8xl inline-block pl-4">seo</h1>
+                 </div>
+             </div>
+        </div>
+        <!-- text auto slider end -->
+    </div>
+
+    <!-- scripts file added start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./scripts/gsap.js"></script>
+    <script src="./scripts/scripts.js"></script>
+    <!-- scripts file added end -->
+</body>
+</html>
