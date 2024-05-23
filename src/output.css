@@ -663,6 +663,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -951,12 +955,64 @@ video {
   background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
+.bg-orange-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+}
+
+.bg-orange-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
+.bg-green-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-2 {
@@ -1128,6 +1184,37 @@ video {
   transition-duration: 700ms;
 }
 
+.hover\:bg-\[\]:hover {
+  background-color: ;
+}
+
+.hover\:bg-\[\#fb803a\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 128 58 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#fb813aba\]:hover {
+  background-color: #fb813aba;
+}
+
+.hover\:bg-\[\#fb813a93\]:hover {
+  background-color: #fb813a93;
+}
+
+.hover\:bg-\[\#448dc8\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 141 200 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#448dc880\]:hover {
+  background-color: #448dc880;
+}
+
+.hover\:bg-green-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
 .hover\:shadow-2xl:hover {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1204,6 +1291,14 @@ video {
     top: 40%;
   }
 
+  .sm\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1252,9 +1347,18 @@ video {
     width: 60%;
   }
 
+  .sm\:p-3 {
+    padding: 0.75rem;
+  }
+
   .sm\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .sm\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .sm\:text-3xl {
@@ -1275,5 +1379,11 @@ video {
   .sm\:text-8xl {
     font-size: 6rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
   }
 }
