@@ -37,3 +37,7 @@
     -webkit-text-fill-color: transparent;
     text-transform: capitalize;
 }
+#mobile-menu-display {
+    transform: translateX(100%);
+    position: fixed;
+}
