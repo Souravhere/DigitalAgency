@@ -735,6 +735,26 @@ video {
   margin-left: 85%;
 }
 
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[10\] {
+  margin-top: 10;
+}
+
+.mt-\[10\%\] {
+  margin-top: 10%;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .block {
   display: block;
 }
