@@ -46,3 +46,29 @@ var swiper = new Swiper(".mySwiper", {
     grabCursor: true,
   });
 // This js code for the Swiper.js end here
+
+// this gsap code for open and close the FAQ
+let faqbtns = document.querySelectorAll(".openfaq");
+let answers = document.querySelectorAll(".answer");
+
+        faqbtns.forEach((faqbtn, index) => {
+            faqbtn.addEventListener("click", () => {
+                const answer = answers[index];
+
+                answers.forEach((ans, ansIndex) => {
+                    if (ansIndex !== index) {
+                        gsap.to(ans, {height: 0, opacity: 0, duration: 0.5, onComplete: () => ans.classList.add("hidden")});
+                        faqbtns[ansIndex].innerHTML = `<i class="ri-add-line"></i>`;
+                    }
+                });
+
+                if (answer.classList.contains("hidden")) {
+                    answer.classList.remove("hidden");
+                    gsap.fromTo(answer, {height: 0, opacity: 0}, {height: "auto", opacity: 1, duration: 0.5});
+                    faqbtn.innerHTML = `<i class="ri-subtract-line"></i>`;
+                } else {
+                    gsap.to(answer, {height: 0, opacity: 0, duration: 0.5, onComplete: () => answer.classList.add("hidden")});
+                    faqbtn.innerHTML = `<i class="ri-add-line"></i>`;
+                }
+            });
+        });

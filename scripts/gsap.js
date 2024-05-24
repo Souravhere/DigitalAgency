@@ -156,3 +156,16 @@ gsap.from("#aboutright",{
     }
 })
 // This gsap code for the about our team section end here
+// This gsap code for the FAQ scetion start here
+gsap.from("#faqsection",{
+    scale:0,
+    opacity:0,
+    duration:2,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:"#faqsection",
+        end:"top 50%",
+        scrub:2
+    }
+})
+// This gsap code for the FAQ scetion end here
