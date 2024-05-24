@@ -39,3 +39,10 @@ mobilemenubtns.forEach(button => {
         isMenuOpen = !isMenuOpen;
     });
 });
+
+// This js code for the Swiper.js start here
+var swiper = new Swiper(".mySwiper", {
+    effect: "cards",
+    grabCursor: true,
+  });
+// This js code for the Swiper.js end here

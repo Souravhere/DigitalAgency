@@ -72,3 +72,87 @@ headertl.from("#cardsarticalsectin", {
     stagger: 1.1,
 });
 // This is for the top artical section for the cards end here
+
+// This js code for the main section start here
+let mainsectiontl = gsap.timeline({
+    scrollTrigger:{
+        scroller:"body",
+        trigger:"#maincontainer",
+        end:"top 50%",
+        scrub:2
+    }
+})
+mainsectiontl.from("#maincontainer",{
+    scale:0,
+    duration:1.5,
+    opacity:0
+})
+// This js code for the main section end here
+
+// This gsap code for the about us section start here
+let aboutsection = document.querySelector("#aboutuscards")
+let newaboutsection = aboutsection.children;
+const aboutsectiontl = gsap.timeline({
+    scrollTrigger:{
+        scroller:"body",
+        trigger:"#aboutsection",
+        end:"top 50%",
+        scrub: 5,
+    }
+})
+aboutsectiontl.from(newaboutsection,{
+    x:400,
+    opacity:0,
+    duration:1.5,
+    stagger:1,
+})
+// This gsap code for the about us section end here
+
+// This is for the top Plans & Pricing section start here
+let planstop = document.querySelector("#plans-top")
+let newplanstop = planstop.children;
+const planstl = gsap.timeline({
+    scrollTrigger:{
+        scroller: "body",
+        trigger: "#planssection",
+        end:"top 50%",
+        scrub: 3
+    }
+});
+planstl.from(newplanstop, {
+    y: 20,
+    opacity: 0,
+    duration: 1.5,
+    stagger: 1.1,
+});
+planstl.from("#plans-cards", {
+    scale:0,
+    opacity: 0,
+    duration: 2,
+    stagger: 1.1,
+});
+// This is for the top Plans & Pricing section end here
+// This gsap code for the about our team section start here
+gsap.from("#aboutleft",{
+    x:-300,
+    opacity:0,
+    duration:2,
+    scrollTrigger:{
+        scroller: "body",
+        trigger: "#aboutteam",
+        end:"top 50%",
+        scrub: 3
+    }
+})
+gsap.from("#aboutright",{
+    x:300,
+    opacity:0,
+    duration:2,
+    scrollTrigger:{
+        scroller: "body",
+        trigger: "#aboutteam",
+        end:"top 50%",
+        scrub: 3
+    }
+})
+// This gsap code for the about our team section end here
