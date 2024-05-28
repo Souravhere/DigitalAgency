@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/another.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Document</title>
+    <style>
+        .headertext{
+           background: linear-gradient(90deg,#50a7c2  0%, #b7f8db 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <nav class=" text-black bg-[#f3eee8] flex items-center justify-between h-[10vh] p-4">
+        <a id="desknav" href=""><h1 class="text-2xl font-bold">Byytes.in</h1></a>
+        <!-- desktop menu start -->
+        <ul id="desknav" class="sm:flex gap-5 font-semibold hidden">
+            <li class="after"><a href="">Home</a></li>
+            <li class="after"><a href="">Contact Us</a></li>
+            <li class="after"><a href="">About Us</a></li>
+            <li class="after"><a href="">Projects</a></li>
+            <li class="after"><a href="">Services</a></li>
+        </ul>
+        <!-- desktop menu end -->
+        <!-- moblile menu start -->
+        <button class="mobile-menu-btn sm:hidden"><i class="ri-menu-4-line text-4xl"></i></button>
+        <div id="mobile-menu-display" class="sm:hidden bottom-0 left-0 z-50 w-full h-screen bg-[#f3eee8]">
+            <button class="mobile-menu-btn sm:hidden p-5 ml-[80%] mt-[10%]"><i class="ri-xrp-fill text-4xl"></i></button>
+            <ul id="menu-li" class="font-bold sm:hidden text-right p-5 text-5xl mt-14">
+                <li class="mt-5"><a href="">Home <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                <li class="mt-5"><a href="">Contact Us <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                <li class="mt-5"><a href="">About Us <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                <li class="mt-5"><a href="">Projects <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                <li class="mt-5"><a href="">Services <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+            </ul>
+        </div>
+        <!-- moblile menu end -->
+        <!-- <a href=""><button>Contact Us</button></a> -->
+
+</nav>
+    <header class="w-full sm:h-screen h-[90vh] sm:flex block items-center justify-evenly bg-[#f3eee8]">
+        <div class="header-right sm:hidden w-full flex items-center justify-center relative overflow-hidden">
+            <img class="scale-150 mix-blend-multiply" src="./sourcimg/hdlogo.png" alt="">
+            <div class="absolute left-2 border border-gray-400 top-16 rounded-xl p-1 backdrop-blur">
+                <div class="flex items-center justify-evenly">
+                    <img class="h-12" src="https://img.icons8.com/color/400/web.png" alt="Icon">
+                    <h2 class="font-semibold">Web Development</h2>
+                </div>
+            </div>
+            <div class="absolute right-6 border border-gray-400 top-24 rounded-xl p-1 backdrop-blur">
+                <div class="flex items-center justify-evenly">
+                    <img class="h-12" src="https://img.icons8.com/3d-fluency/750/design.png" alt="Icon">
+                    <h2 class="font-semibold">Designs</h2>
+                </div>
+            </div>
+            <div class="absolute right-8 border border-gray-400 bottom-28 rounded-xl p-1 backdrop-blur">
+                <div class="flex items-center justify-evenly">
+                    <img class="h-12" src="https://img.icons8.com/3d-fluency/750/chart.png" alt="Icon">
+                    <h2 class="font-semibold">Marketing</h2>
+                </div>
+            </div>
+            <div class="absolute left-12 border border-gray-400 bottom-32 rounded-xl p-1 backdrop-blur">
+                <div class="flex items-center justify-evenly">
+                    <img class="h-12" src="https://img.icons8.com/color/750/bullish.png" alt="Icon">
+                    <h2 class="font-semibold">SEO</h2>
+                </div>
+            </div>
+        </div>
+        <div id="header-left" class="sm:w-[60%] w-full sm:p-7 p-5 relative sm:text-left text-center">
+            <p class="text-sm bg-yellow-500 font-semibold uppercase py-1 px-2 inline-block rounded-full">we can help you</p>
+            <h1 class="sm:block hidden font-semibold sm:text-6xl text-5xl tracking-wider mt-4">Grown <span class="headertext font-bold">faster</span> with our all-in-one platform <br> Byyte</h1>
+            <h1 class="sm:hidden block font-semibold sm:text-6xl text-5xl tracking-wider mt-4">Grown <span class="headertext font-bold">faster</span> with Byyte</h1>
+            <p class="sm:mt-6 mt-6 font-semibold text-sm sm:w-[60%]">Byytes is an innovative India-based agency dedicated to building and elevating brands through comprehensive design and development services.</p>
+            <div class="mt-8">
+                <a class="" href=""><div class="text-white uppercase bg-black p-4 rounded-full hover:bg-gray-600 duration-700 inline-block text-center">get started <i class="ri-arrow-right-line ml-2 text-2xl ring-2 ring-orange-500 rounded-full p-2"></i></div></a>
+                <a class="ml-5 font-bold hover:text-gray-500" href="">Learn More</a>
+            </div>
+        </div>
+        <div class="header-right sm:flex hidden sm:w-[40%] w-full sm:h-[90vh] items-center justify-center relative overflow-hidden">
+            <img class="scale-150 mix-blend-multiply" src="./sourcimg/hdlogo.png" alt="">
+            <div class="absolute sm:left-2 border border-gray-400 sm:top-44 rounded-xl p-1 backdrop-blur">
+                <div class="flex items-center justify-evenly">
+                    <img class="h-12" src="https://img.icons8.com/color/400/web.png" alt="Icon">
+                    <h2 class="font-semibold">Web Development</h2>
+                </div>
+            </div>
+            <div class="absolute sm:right-16 border border-gray-400 sm:top-32 rounded-xl p-1 backdrop-blur">
+                <div class="flex items-center justify-evenly">
+                    <img class="h-12" src="https://img.icons8.com/3d-fluency/750/design.png" alt="Icon">
+                    <h2 class="font-semibold">Designs</h2>
+                </div>
+            </div>
+            <div class="absolute sm:right-20 border border-gray-400 sm:bottom-24 rounded-xl p-1 backdrop-blur">
+                <div class="flex items-center justify-evenly">
+                    <img class="h-12" src="https://img.icons8.com/3d-fluency/750/chart.png" alt="Icon">
+                    <h2 class="font-semibold">Marketing</h2>
+                </div>
+            </div>
+            <div class="absolute sm:left-20 border border-gray-400 sm:bottom-44 rounded-xl p-1 backdrop-blur">
+                <div class="flex items-center justify-evenly">
+                    <img class="h-12" src="https://img.icons8.com/color/750/bullish.png" alt="Icon">
+                    <h2 class="font-semibold">SEO</h2>
+                </div>
+            </div>
+        </div>
+        <div id="scroller" class="hidden sm:absolute py-3 px-3 border-2 rounded-3xl sm:bottom-16 bottom-12 left-[45%] cursor-pointer group"><i class="ri-arrow-down-line text-3xl font-semibold inline-block animate-bounce  group-hover:animate-none"></i></div>
+    </header>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/scripts.js"></script>
+    <script>
+        let headerele = document.querySelectorAll(".header-right");
+        let newheaderele = [];
+
+        headerele.forEach((element) => {
+            newheaderele.push(...element.children);
+        });
+        gsap.from(newheaderele, {
+            // duration: 0.5,
+            opacity: 0,
+            stagger: 0.2,
+        });
+        let headerleft = document.getElementById("header-left")
+        let newheaderleft = headerleft.children;
+        gsap.from(newheaderleft,{
+            opacity:0,
+            y:20,
+            duration:1.5,
+            stagger:0.5
+        })
+    </script>
+</body>
+</html>
