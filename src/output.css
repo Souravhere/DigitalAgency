@@ -2114,6 +2114,10 @@ video {
     width: 65%;
   }
 
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:flex-row-reverse {
     flex-direction: row-reverse;
   }

@@ -8,28 +8,25 @@ gsap.from("#desknav",{
 // Navigatoin animation end
 // TOP header gsap code start here
 // animation for the left icons
-gsap.from("#headeranileft",{
-    x:-200,
-    duration:2,
-    opacity:0,
-    rotate:"180deg"
-})
-// animation for the right icons
-gsap.from("#headeraniright",{
-    x:200,
-    duration:2,
-    opacity:0,
-    rotate:"180deg"
-})
-// gsap for the header text
-let midheadertext = document.querySelector("#mid-header")
-let newmidheadertext = midheadertext.children;
-gsap.from(newmidheadertext,{
-    opacity:0,
-    y:20,
-    duration:1.7,
-    stagger:0.4
-})
+let headerele = document.querySelectorAll(".header-right");
+        let newheaderele = [];
+
+        headerele.forEach((element) => {
+            newheaderele.push(...element.children);
+        });
+        gsap.from(newheaderele, {
+            // duration: 0.5,
+            opacity: 0,
+            stagger: 0.2,
+        });
+        let headerleft = document.getElementById("header-left")
+        let newheaderleft = headerleft.children;
+        gsap.from(newheaderleft,{
+            opacity:0,
+            y:20,
+            duration:1.5,
+            stagger:0.5
+        })
 // gsap for the scroll button
 gsap.from("#scroller",{
     opacity:0,
@@ -83,7 +80,7 @@ let mainsectiontl = gsap.timeline({
     }
 })
 mainsectiontl.from("#maincontainer",{
-    scale:0,
+    scale:0.6,
     duration:1.5,
     opacity:0
 })

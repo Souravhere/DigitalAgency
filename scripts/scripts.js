@@ -1,9 +1,3 @@
-// This gsap code for the scroll button
-let main = document.querySelector(".main")
-document.querySelector("#scroller").addEventListener("click",()=>{
-    window.scrollTo({top: window.innerHeight, behavior: 'smooth'})
-})
-
 // this js code for the mobile menu open and close
 let mobilemenu = document.querySelector("#mobile-menu-display");
 let mobilemenubtns = document.querySelectorAll(".mobile-menu-btn");

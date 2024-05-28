@@ -7,19 +7,40 @@
     <link rel="stylesheet" href="./src/another.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <title>Byytes.in - Home</title>
+    <meta name="description" content="Byytes is an innovative India-based agency dedicated to building and elevating brands through comprehensive design and development services, including brand design, web building, product design, UI, and color schemes.">
+    <meta name="keywords" content="Byytes, India, branding, brand design, web building, product design, UI design, color schemes, digital agency, design services, development services">
+    <meta name="author" content="Byytes">
+    <meta name="robots" content="index, follow">
+    <title>Byyte.in - Home</title>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Byytes - Innovative Design and Development Agency">
+    <meta property="og:description" content="Byytes is an innovative India-based agency focused on elevating brands through comprehensive design and development services.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.byyte.in">
+    <meta property="og:image" content="./sourcimg/share-img.jpg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="./sourcimg/share-img.jpg">
+    <meta name="twitter:title" content="Byytes - Innovative Design and Development Agency">
+    <meta name="twitter:description" content="Byytes is an innovative India-based agency focused on elevating brands through comprehensive design and development services.">
+    <meta name="twitter:image" content="./sourcimg/share-img.jpg">
+    
+    <link rel="canonical" href="http://www.byyte.in">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="./sourcimg/hdlogo.png" type="image/x-icon">
 </head>
 <body>
     <div class="main">
         <nav class=" text-black bg-[#f3eee8] flex items-center justify-between h-[10vh] p-4">
-                <a id="desknav" href=""><h1 class="text-2xl font-bold">Byytes.in</h1></a>
+                <a id="desknav" href=""><h1 class="text-2xl font-bold">Byyte.in</h1></a>
                 <!-- desktop menu start -->
                 <ul id="desknav" class="sm:flex gap-5 font-semibold hidden">
-                    <li class="after"><a href="index.html">Home</a></li>
-                    <li class="after"><a href="contact.html">Contact Us</a></li>
-                    <li class="after"><a href="">About Us</a></li>
-                    <li class="after"><a href="">Projects</a></li>
-                    <li class="after"><a href="">Services</a></li>
+                    <li class="after"><a href="./index.html">Home</a></li>
+                    <li class="after"><a href="./contact.html">Contact Us</a></li>
+                    <li class="after"><a href="./aboutus.html">About Us</a></li>
+                    <li class="after"><a href="./projects.html">Projects</a></li>
+                    <li class="after"><a href="./services.html">Services</a></li>
                 </ul>
                 <!-- desktop menu end -->
                 <!-- moblile menu start -->
@@ -27,33 +48,83 @@
                 <div id="mobile-menu-display" class="sm:hidden bottom-0 left-0 z-50 w-full h-screen bg-[#f3eee8]">
                     <button class="mobile-menu-btn sm:hidden p-5 ml-[80%] mt-[10%]"><i class="ri-xrp-fill text-4xl"></i></button>
                     <ul id="menu-li" class="font-bold sm:hidden text-right p-5 text-5xl mt-14">
-                        <li class="mt-5"><a href="index.html">Home <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
-                        <li class="mt-5"><a href="contact.html">Contact Us <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
-                        <li class="mt-5"><a href="">About Us <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
-                        <li class="mt-5"><a href="">Projects <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
-                        <li class="mt-5"><a href="">Services <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                        <li class="mt-5"><a href="./index.html">Home <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                        <li class="mt-5"><a href="./contact.html">Contact Us <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                        <li class="mt-5"><a href="./aboutus.html">About Us <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                        <li class="mt-5"><a href="./projects.html">Projects <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
+                        <li class="mt-5"><a href="./services.html">Services <i class="ri-arrow-right-up-line pl-2 font-bold"></i></a></li>
                     </ul>
                 </div>
                 <!-- moblile menu end -->
                 <!-- <a href=""><button>Contact Us</button></a> -->
 
         </nav>
-        <header class="w-full h-[90vh] bg-[#f3eee8] flex items-center justify-center relative overflow-x-hidden overflow-y-hidden">
-            <!-- some elements with absolute -->
-            <i id="headeranileft" class="ri-shining-2-fill absolute sm:top-9 sm:left-20 top-36 text-7xl rotate-45 text-orange-500 "></i> 
-            <div id="headeraniright" class="bg-black sm:block hidden rounded-3xl text-white font-semibold absolute text-2xl px-3 py-1 sm:top-9 sm:right-20 r -rotate-12">100%</div>
-            <div id="headeranileft" class="bg-[#fc7174] rounded-3xl text-black font-semibold absolute text-2xl px-3 py-1 sm:bottom-9 sm:left-20 bottom-28 left-2 -rotate-12 uppercase">webdesign</div>
-            <div id="headeraniright" class="bg-[#389b48] sm:block hidden rounded-3xl text-black font-semibold absolute text-2xl px-3 py-1 sm:bottom-9 sm:right-20  -rotate-45 uppercase"> seo</div>
-            <div id="headeranileft" class="bg-[#389b48] rounded-full text-center text-black font-semibold absolute text-1xl p-4 sm:bottom-10 sm:left-96 bottom-44 left-40 uppercase"><i class="ri-thumb-up-fill"></i><br> social <br> media</div>
-            <div id="headeraniright" class="bg-[#fcc31e] text-center text-black font-semibold absolute text-1xl p-4 sm:bottom-10 sm:right-96 bottom-28 right-3 uppercase">uix <br> design <br><i class="ri-cursor-line"></i></div>
-
-            <div id="mid-header" class="text-center sm:mt-0 -mt-10">
-                <p class="uppercase text-sm mt-3">welcome to digital Agency</p>
-                <h1 class="sm:text-5xl text-4xl font-bold mt-3">We are Awarded <br> Digital Agency</h1>
-                <h4 class="text-sm font-semibold mt-3">We are freelance WebDevelopment Agency</h4>
-                <a href=""><button class="bg-[#030001] px-4 py-2 rounded-xl mt-4 text-white group">Learn More <i class="ri-arrow-right-line group-hover:animate-pulse"></i></button></a>
+        <header class="w-full sm:h-screen h-[90vh] sm:flex block items-center justify-evenly bg-[#f3eee8]">
+            <div class="header-right sm:hidden w-full flex items-center justify-center relative overflow-hidden">
+                <img class="scale-150 mix-blend-multiply" src="./sourcimg/header-img.png" alt="">
+                <div class="absolute left-2 border border-gray-400 top-16 rounded-xl p-1 backdrop-blur">
+                    <div class="flex items-center justify-evenly">
+                        <img class="h-12" src="https://img.icons8.com/color/400/web.png" alt="Icon">
+                        <h2 class="font-semibold">Web Development</h2>
+                    </div>
+                </div>
+                <div class="absolute right-6 border border-gray-400 top-24 rounded-xl p-1 backdrop-blur">
+                    <div class="flex items-center justify-evenly">
+                        <img class="h-12" src="https://img.icons8.com/3d-fluency/750/design.png" alt="Icon">
+                        <h2 class="font-semibold">Designs</h2>
+                    </div>
+                </div>
+                <div class="absolute right-8 border border-gray-400 bottom-28 rounded-xl p-1 backdrop-blur">
+                    <div class="flex items-center justify-evenly">
+                        <img class="h-12" src="https://img.icons8.com/3d-fluency/750/chart.png" alt="Icon">
+                        <h2 class="font-semibold">Marketing</h2>
+                    </div>
+                </div>
+                <div class="absolute left-12 border border-gray-400 bottom-32 rounded-xl p-1 backdrop-blur">
+                    <div class="flex items-center justify-evenly">
+                        <img class="h-12" src="https://img.icons8.com/color/750/bullish.png" alt="Icon">
+                        <h2 class="font-semibold">SEO</h2>
+                    </div>
+                </div>
             </div>
-            <div id="scroller" class="py-3 px-3 border-2 rounded-3xl absolute bottom-16 cursor-pointer group"><i class="ri-arrow-down-line text-3xl font-semibold inline-block animate-bounce  group-hover:animate-none"></i></div>
+            <div id="header-left" class="sm:w-[60%] w-full sm:p-7 p-5 relative sm:text-left text-center">
+                <p class="text-sm bg-yellow-500 font-semibold uppercase py-1 px-2 inline-block rounded-full">we can help you</p>
+                <h1 class="sm:block hidden font-semibold sm:text-6xl text-5xl tracking-wider mt-4">Grown <span class="headertext font-bold">faster</span> with our all-in-one platform <br> Byyte</h1>
+                <h1 class="sm:hidden block font-semibold sm:text-6xl text-5xl tracking-wider mt-4">Grown <span class="headertext font-bold">faster</span> with Byyte</h1>
+                <p class="sm:mt-6 mt-6 font-semibold text-sm sm:w-[60%]">Byytes is an innovative India-based agency dedicated to building and elevating brands through comprehensive design and development services.</p>
+                <div class="mt-8">
+                    <a class="" href=""><div class="text-white uppercase bg-black p-4 rounded-full hover:bg-gray-600 duration-700 inline-block text-center">get started <i class="ri-arrow-right-line ml-2 text-2xl ring-2 ring-orange-500 rounded-full p-2"></i></div></a>
+                    <a class="ml-5 font-bold hover:text-gray-500" href="">Learn More</a>
+                </div>
+            </div>
+            <div class="header-right sm:flex hidden sm:w-[40%] w-full sm:h-[90vh] items-center justify-center relative overflow-hidden">
+                    <img class="scale-150 mix-blend-multiply" src="./sourcimg/header-img.png" alt="">
+                <div class="absolute sm:left-2 border border-gray-400 sm:top-44 rounded-xl p-1 backdrop-blur">
+                    <div class="flex items-center justify-evenly">
+                        <img class="h-12" src="https://img.icons8.com/color/400/web.png" alt="Icon">
+                        <h2 class="font-semibold">Web Development</h2>
+                    </div>
+                </div>
+                <div class="absolute sm:right-16 border border-gray-400 sm:top-32 rounded-xl p-1 backdrop-blur">
+                    <div class="flex items-center justify-evenly">
+                        <img class="h-12" src="https://img.icons8.com/3d-fluency/750/design.png" alt="Icon">
+                        <h2 class="font-semibold">Designs</h2>
+                    </div>
+                </div>
+                <div class="absolute sm:right-20 border border-gray-400 sm:bottom-24 rounded-xl p-1 backdrop-blur">
+                    <div class="flex items-center justify-evenly">
+                        <img class="h-12" src="https://img.icons8.com/3d-fluency/750/chart.png" alt="Icon">
+                        <h2 class="font-semibold">Marketing</h2>
+                    </div>
+                </div>
+                <div class="absolute sm:left-20 border border-gray-400 sm:bottom-44 rounded-xl p-1 backdrop-blur">
+                    <div class="flex items-center justify-evenly">
+                        <img class="h-12" src="https://img.icons8.com/color/750/bullish.png" alt="Icon">
+                        <h2 class="font-semibold">SEO</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="scroller" class="hidden sm:absolute py-3 px-3 border-2 rounded-3xl sm:bottom-16 bottom-12 left-[45%] cursor-pointer group"><i class="ri-arrow-down-line text-3xl font-semibold inline-block animate-bounce  group-hover:animate-none"></i></div>
         </header>
         <article id="articalsection" class="w-full sm:h-screen h-fit p-5">
             <div id="toparticalsection" class="text-center">
@@ -358,10 +429,10 @@
     <div class="bg-[#fdf6ee] rounded-lg p-3">
         <div class="flex items-center justify-between">
             <h1 class="text-3xl font-bold">Follow Us</h1>
-            <h3 class="text-xl font-semibold">@Byytes.in</h3>
+            <h3 class="text-xl font-semibold">@Byyte.in</h3>
         </div>
         <div class="flex items-center justify-evenly sm:px-64 py-8">
-            <a href="">
+            <a href="https://www.instagram.com/byyte.in/">
                 <div class="bg-pink-300 p-3 rounded-lg inline-block -rotate-12 hover:rotate-0 duration-500">
                     <i class="text-3xl ri-instagram-line"></i>
                 </div>
@@ -391,30 +462,30 @@
   <footer class="w-full h-fit p-5">
     <div class="sm:flex block bg-[#f3eee8] w-full h-fit p-3 rounded-lg">
         <div  class="sm:w-[25%] w-full sm:text-left text-center">
-            <a href=""><h1 class="font-bold text-3xl">Byytes.in</h1></a>
+            <a href=""><h1 class="font-bold text-3xl">Byyte.in</h1></a>
             <p class="text-sm font-semibold mt-3">Byytes is an innovative India-based agency dedicated to building and elevating brands through comprehensive design and development services.</p>
         </div>
         <div class="flex items-center justify-evenly w-full sm:mt-0 mt-8 sm:border-b-0 border-b-2 border-gray-400 sm:pb-0 pb-3">
             <ul>
                 <h3 class="text-lg font-semibold">Product</h3>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>UI</li></a>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>Brand Design</li></a>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>Web Building</li></a>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>Product Design</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./uis.html"><li>UI</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./brand.html"><li>Brand Design</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./web-build.html"><li>Web Building</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./product.html"><li>Product Design</li></a>
             </ul>
             <ul>
                 <h3 class="text-lg font-semibold">Pages</h3>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>About Us</li></a>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>Contact Us</li></a>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>Projects</li></a>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>Blog</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./aboutus.html"><li>About Us</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./contact.html"><li>Contact Us</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./projects.html"><li>Projects</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./blog.html"><li>Blog</li></a>
             </ul>
             <ul>
                 <h3 class="text-lg font-semibold">Company</h3>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>Projects</li></a>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>Terms</li></a>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>Privacy</li></a>
-                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href=""><li>Services</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./projects.html"><li>Projects</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./terms.html"><li>Terms</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./privacy.html"><li>Privacy</li></a>
+                <a class="font-semibold text-sm hover:text-gray-400 duration-700" href="./services.html"><li>Services</li></a>
             </ul>
         </div>
         <div class="sm:hidden flex items-center justify-between my-4">
@@ -429,7 +500,7 @@
     <div class="sm:flex hidden items-center justify-between my-4">
         <h3 class="font-semibold text-sm"><i class="ri-copyright-line"></i> Byytes 2024 - All rights reserved</h3>
         <div class="">
-            <a href=""><i class="font-semibold text-2xl ri-instagram-line hover:text-pink-400 duration-500 hover:bg-[#fefdfd91] p-2 rounded-full"></i></a>
+            <a href="https://www.instagram.com/byyte.in/"><i class="font-semibold text-2xl ri-instagram-line hover:text-pink-400 duration-500 hover:bg-[#fefdfd91] p-2 rounded-full"></i></a>
             <a href=""><i class="font-semibold text-2xl ri-linkedin-line hover:text-blue-400 duration-500 hover:bg-[#fefdfd91] p-2 rounded-full"></i></a>
             <a href=""><i class="font-semibold text-2xl ri-twitter-x-line hover:text-gray-400 duration-400 hover:bg-[#fefdfd91] p-2 rounded-full"></i></a>
         </div>
